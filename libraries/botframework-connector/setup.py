@@ -4,7 +4,7 @@ import os
 from setuptools import setup
 
 NAME = "botframework-connector"
-VERSION = os.environ["packageVersion"] if "packageVersion" in os.environ else "4.11.0"
+VERSION = os.environ["packageVersion"] if "packageVersion" in os.environ else "4.11.1"
 REQUIRES = [
     "msrest==0.6.10",
     "requests==2.23.0",
