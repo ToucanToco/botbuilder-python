@@ -6,7 +6,7 @@ from setuptools import setup
 
 REQUIRES = [
     "botbuilder-schema==4.11.0",
-    "botbuilder-core==4.11.0",
+    "botbuilder-core==4.11.2",
     "botbuilder-dialogs==4.11.0",
 ]
 

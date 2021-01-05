@@ -1,7 +1,7 @@
 msrest==0.6.10
-git+https://github.com/ToucanToco/botbuilder-python#egg=botframework-connector&subdirectory=libraries/botframework-connector  # botframework-connector fork with cryptography version 3.2
+git+https://github.com/ToucanToco/botbuilder-python#egg=botframework-connector&subdirectory=libraries/botframework-connector  # botframework-connector fork with unpinned cryptography and jsonpickle
 botbuilder-schema==4.11.0
 requests==2.23.0
 PyJWT==1.5.3
-cryptography==3.2
+cryptography
 aiounittest==1.3.0

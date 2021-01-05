@@ -4,11 +4,11 @@
 import os
 from setuptools import setup
 
-VERSION = os.environ["packageVersion"] if "packageVersion" in os.environ else "4.11.1"
+VERSION = os.environ["packageVersion"] if "packageVersion" in os.environ else "4.11.2"
 REQUIRES = [
     "botbuilder-schema==4.11.0",
-    "botframework-connector==4.11.1",
-    "jsonpickle==1.2",
+    "botframework-connector==4.11.2",
+    "jsonpickle",
 ]
 
 root = os.path.abspath(os.path.dirname(__file__))

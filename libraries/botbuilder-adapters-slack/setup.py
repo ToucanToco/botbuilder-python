@@ -6,8 +6,8 @@ from setuptools import setup
 
 REQUIRES = [
     "botbuilder-schema==4.11.0",
-    "botframework-connector==4.11.0",
-    "botbuilder-core==4.11.0",
+    "botframework-connector==4.11.2",
+    "botbuilder-core==4.11.2",
     "pyslack",
     "slackclient",
 ]

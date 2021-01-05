@@ -8,8 +8,8 @@ REQUIRES = [
     "applicationinsights>=0.11.9",
     "aiohttp==3.6.2",
     "botbuilder-schema==4.11.0",
-    "botframework-connector==4.11.0",
-    "botbuilder-core==4.11.0",
+    "botframework-connector==4.11.2",
+    "botbuilder-core==4.11.2",
     "botbuilder-applicationinsights==4.11.0",
 ]
 TESTS_REQUIRES = [
